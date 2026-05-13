@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gift Hamper Lover</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #fff8f0;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(135deg, #ff6f91, #ff9671);
+      color: white;
+      text-align: center;
+      padding: 30px 20px;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+    }
+
+    header p {
+      margin-top: 10px;
+      font-size: 1.1rem;
+    }
+
+    nav {
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      padding: 15px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #ff6f91;
+      font-weight: bold;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    .hero img {
+      width: 90%;
+      max-width: 900px;
+      border-radius: 15px;
+    }
+
+    .products {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .products h2 {
+      margin-bottom: 20px;
+      color: #ff6f91;
+    }
+
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .product-card {
+      background: white;
+      padding: 15px;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .product-card img {
+      width: 100%;
+      border-radius: 10px;
+      height: 250px;
+      object-fit: cover;
+    }
+
+    .product-card h3 {
+      margin: 10px 0;
+    }
+
+    .whatsapp-btn {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 20px;
+      background: #25D366;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+
+    .contact {
+      text-align: center;
+      padding: 40px 20px;
+      background: #ff9671;
+      color: white;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #333;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Gift Hamper Lover</h1>
+    <p>Beautiful & Customized Gift Hampers for Every Occasion</p>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#products">Gift Hampers</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section class="hero" id="home">
+    <img src="https://images.unsplash.com/photo-1513885535751-8b9238bd345a" alt="Gift Hamper Banner">
+  </section>
+
+  <section class="products" id="products">
+    <h2>Our Special Gift Hampers</h2>
+    <div class="product-grid">
+
+      <div class="product-card">
+        <img src="https://images.unsplash.com/photo-1512909006721-3d6018887383" alt="Birthday Hamper">
+        <h3>Birthday Hamper</h3>
+        <p>Perfect birthday surprise hamper</p>
+        <a class="whatsapp-btn" href="https://wa.me/919549541057" target="_blank">Order on WhatsApp</a>
+      </div>
+
+      <div class="product-card">
+        <img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f" alt="Wedding Hamper">
+        <h3>Wedding Hamper</h3>
+        <p>Elegant wedding gift collection</p>
+        <a class="whatsapp-btn" href="https://wa.me/919549541057" target="_blank">Order on WhatsApp</a>
+      </div>
+
+      <div class="product-card">
+        <img src="https://images.unsplash.com/photo-1549465220-1a8b9238cd48" alt="Festival Hamper">
+        <h3>Festival Hamper</h3>
+        <p>Celebrate every festival with joy</p>
+        <a class="whatsapp-btn" href="https://wa.me/919549541057" target="_blank">Order on WhatsApp</a>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <p>WhatsApp: 9549541057</p>
+    <p>Custom Hampers Available for All Occasions</p>
+    <a class="whatsapp-btn" href="https://wa.me/919549541057" target="_blank">Chat Now</a>
+  </section>
+
+  <footer>
+    <p>© 2026 Gift Hamper Lover | Designed with Love</p>
+  </footer>
+
+</body>
+</html>
